@@ -1,7 +1,5 @@
 ## Added by Brian Blaylock
 ## July 27, 2021
-## Edited by Bryan Guarente
-## May 31, 2024
 
 class nbm:
     def template(self):
@@ -18,7 +16,6 @@ class nbm:
             "gu": "Guam 13-km resolution",
             "hi": "Hawaii 13-km resolution",
             "pr": "Puerto Rico 13-km resolution",
-            "gl": "Global 50-km resolution"
         }
         self.SOURCES = {
             "nomads": f"https://nomads.ncep.noaa.gov/pub/data/nccf/com/blend/prod/blend.{self.date:%Y%m%d/%H}/core/blend.t{self.date:%H}z.core.f{self.fxx:03d}.{self.product}.grib2",
